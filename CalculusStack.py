@@ -56,6 +56,6 @@ class Calculus(Stack):
 
 
 if __name__ == '__main__':
-    # 1 2 + 3 *
+    # 1 2 + 3 * = (1 + 2) * 3
     stack = Calculus()
     print(stack.calculo())
