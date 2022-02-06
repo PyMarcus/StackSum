@@ -40,7 +40,7 @@ class Calculus(Stack):
     def calculo(self) -> Stack:
         """Solicita a operação.Que deve ser inserida como operandos e operadores, com espaços e sem parênteses
            :param: None
-           :return: String
+           :return: Stack
         """
         stack = Stack()
         operacao: list = self.push()
